@@ -1,0 +1,360 @@
+@import "vars"
+@import "fonts"
+@import "libs"
+
+
+body
+	margin: 0px
+	padding: 0px
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.65
+	// font-family: $default-font
+	overflow-x: hidden
+	color: $text
+	input, textarea
+		border: #666 1px solid
+		outline: none
+		&:focus:required:invalid
+			border-color: red
+		&:required:valid
+			border-color: green
+.container-fluid
+	padding-left: 0
+
+
+// .img-responsive
+// 	display: block
+// 	max-width: 100%
+// 	height: auto
+// 	&.img-width
+// 		width: 100%
+
+.text-center
+	text-align: center
+
+b, strong
+	font-weight: bold
+header
+	// background-image: url(../img/clients_bg.png)
+	background: #e9ebed
+	width: 100vw
+	height: 100vh
+	background-repeat: no-repeat
+	background-position: center
+    background-size: cover
+	padding-right: 10px
+.topl-line-one
+	
+	border-bottom: 1px solid #000000
+	padding-bottom: 10px
+
+.header-topline
+	padding: 10px 10px
+	margin-bottom: 10px
+	background: #ffffff
+
+.logo, .address, .phone
+	font-size: 16px
+	font-family: roboto-example
+	span
+		font-family: 'Roboto Slab', serif
+		text-transform: uppercase
+		font-size: 14px
+
+
+.slider-top
+	margin-left: 0px
+	.container-fluid
+		padding-left: 0
+		
+.navbar
+	background: #ffffff
+	.nav-link
+		text-transform: uppercase
+		color: #000000
+		font-weight: bold
+
+.our-experience
+	padding: 100px 100px
+	background-color: #ffffff
+	font-size: 16px
+	font-family: 'Roboto Slab', serif
+	
+	.experience-item
+		display: inline-flex
+	h3
+		font-size: 40px
+		font-weight: 800
+		font-family: roboto-example
+		padding-bottom: 50px
+		text-align: center
+	p
+		font-size: 16px
+		font-family: roboto-example
+		padding-top: 15px
+		padding-left: 10px		
+	span
+		color: red
+		font-size: 70px
+		
+//////////////////////////////
+///	our-advantage/////////////
+
+.our-advantage
+	background-image: url(../img/clients_bg.png)
+	width: 100vw
+	height: 100vh
+	background-repeat: no-repeat
+	background-position: center
+    background-size: cover
+    color: #000000
+	.advantage-item
+		margin-bottom: 70px
+	h4
+		font-size: 40px
+		font-weight: bold
+		font-family: roboto-example
+		padding-bottom: 50px
+		text-align: center
+		margin-top: 100px
+		margin-bottom: 30px
+	p
+		font-size: 18px
+		font-family: 'Roboto Slab', serif
+		padding-top: 20px
+		color: #000000
+		
+///////////////////////////////////
+/////////////our-offer/////////////////
+.our-offer
+	font-size: 16px
+	font-family: 'Roboto Slab', serif
+	position: relative
+	margin-left: 15px
+	.offer-item
+		background: #e9ebed
+		padding-top: 30px
+		position: relative
+		padding-bottom: 60px
+	h3
+		font-size: 40px
+		font-weight: 800
+		font-family: roboto-example
+		padding-bottom: 70px
+		padding-top: 70px
+		text-align: center
+	h4
+		font-size: 24px
+		font-weight: 800
+		font-family: roboto-example
+		padding-bottom: 50px
+		text-align: center
+		padding-top: 30px
+		padding-bottom: 10px
+	p
+		font-size: 16px
+		font-family: 'Roboto Slab', serif
+		text-align: left
+		padding-top: 15px
+		padding-left: 45px
+	li
+		&:before
+			content: ""
+			position: absolute
+			width: 20px
+			height: 20px
+			background: url(../img/icon/uslugi/uslugi_chek_icon.png)
+			background-repeat: no-repeat
+			margin-top: 18px
+			margin-left: 15px		
+			left: 0
+
+/////////////////////////////
+////////info-offer//////
+.info-offer
+	background-image: url(../img/icon/zakaz/partners_bg.png)
+	height: 100vh
+	width: 100vw
+	font-size: 16px
+	color: #ffffff
+	margin-top: 50px
+	position: relative
+	h3
+		font-size: 40px
+		font-weight: 800
+		font-family: roboto-example
+		margin-top: 70px
+		margin-bottom: 70px
+	h4	
+		font-size: 20px
+		font-family: 'Roboto Slab', serif
+		color: #000000
+		margin-bottom: 30px
+		
+	.info-form
+		padding-top: 50px
+		padding-bottom: 50px
+		background-color: #fff
+		border-radius: 10px
+	.user-phone,.user-name,
+		border-radius: 10px
+		margin-bottom: 20px
+		padding: 15px 30px
+	.btn_submit
+		border-radius: 10px
+		margin-bottom: 20px
+		padding: 15px 90px
+		background-color: green
+
+	
+			
+
+	/////////////////////////////
+	////////service-package//////
+
+.service-package	
+	h4
+		font-size: 40px
+		font-weight: 800
+		font-family: roboto-example
+		padding-bottom: 20px
+		padding-top: 70px
+		text-align: center
+	h2
+		font-size: 20px
+		font-weight: bold
+		font-family: roboto-example
+		text-transform: uppercase
+		margin-bottom: 10px
+	.lead
+		margin-bottom: 10px
+	th
+		font-size: 14px
+		font-family: 'Roboto Slab', serif
+		
+
+
+///////////map//////////
+.contact
+	position: relative	
+
+	.map
+		width: 100vw
+		position: relative
+	.our-contact
+		position: absolute
+		height: 450px
+		width: 400px
+		background-color: #e9ebed
+		top: -480px
+		text-align: left
+		padding-left: 125px
+	h3
+		font-size: 20px
+		font-weight: bold
+		font-family: roboto-example
+		text-transform: uppercase
+		margin-top: 40px
+		margin-bottom: 40px
+	span
+		font-size: 16px
+		font-family: 'Roboto Slab', serif
+
+
+
+	.contact-home
+		font-size: 20px
+		font-weight: bold
+		font-family: roboto-example
+		padding-bottom: 20px
+		
+		&:before
+			content: ""
+			position: absolute
+			width: 40px
+			height: 40px
+			background: url(../img/icon/contact/maps_adress_icon.png)
+			background-repeat: no-repeat
+			margin-top: -2px
+			margin-left: 76px		
+			left: 0
+	.contact-phone
+		font-size: 20px
+		font-weight: bold
+		font-family: roboto-example
+		padding-bottom: 20px
+		
+		&:before
+			content: ""
+			position: absolute
+			width: 40px
+			height: 40px
+			background: url(../img/icon/contact/maps_phone_icon.png)
+			background-repeat: no-repeat
+			margin-top: -2px
+			margin-left: 76px		
+			left: 0
+	.contact-mail
+		font-size: 20px
+		font-weight: bold
+		font-family: roboto-example
+		padding-bottom: 20px
+		
+		&:before
+			content: ""
+			position: absolute
+			width: 40px
+			height: 40px
+			background: url(../img/icon/contact/maps_mail_icon.png)
+			background-repeat: no-repeat
+			margin-top: -2px
+			margin-left: 76px		
+			left: 0
+
+	////////////footer/////////////////
+.copring
+	color: #ffffff
+	font-size: 10px	
+	font-family: roboto-example
+
+
+.modal
+	text-align: center
+	.user-phone,.user-name	
+		border-radius: 10px
+		margin-bottom: 20px
+		padding: 15px 30px
+	.btn_submit
+		border-radius: 10px
+		margin-bottom: 20px
+		padding: 15px 90px
+		background-color: green
+	.modal-title-footer
+		text-align: left
+
+	
+
+
+
+
+		
+	
+		
+	
+		
+		
+
+
+
+
+
+
+
+		
+	
+	
+
+
+// @import "media" // Always at the end
